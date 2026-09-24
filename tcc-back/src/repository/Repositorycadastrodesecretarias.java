@@ -14,8 +14,7 @@ public class PokemonRepository {
     }
 
 
-    public Repositorycadastrodesecretarias buscarcadastrodesecretarias
-            () {
+    public Repositorycadastrodesecretarias buscarcadastrodesecretarias() {
 
         return new cadastrodesecretarias(
                 "Pikachu",
@@ -25,7 +24,7 @@ public class PokemonRepository {
     }
 
     public String addcadastrodesecretarias;
-    Cadastrodesecretarias repositorycadastrodesecretarias){
+    Cadastrodesecretarias repositorycadastrodesecretarias;{
         this.listacadastrodesecretarias.add(Cadastrodesecretarias);
 
         return "Deu certo!";

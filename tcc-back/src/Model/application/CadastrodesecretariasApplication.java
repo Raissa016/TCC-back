@@ -4,10 +4,10 @@ public class CadastrodesecretariasApplication {
 
 
     @SpringBootApplication
-    public class PokedexApplication {
+    public class CadastrodesecretariasApplication {
 
         public static void main(String[] args) {
-            SpringApplication.run(CadastrodesecretariasApplication.class, args);
+            CadastrodesecretariasApplication.run(CadastrodesecretariasApplication.class, args);
         }
 
     }
