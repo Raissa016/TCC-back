@@ -5,9 +5,9 @@ import java.util.List;
 public class Cadastrodesecretarias{
 
 @Repository
-public class PokemonRepository {
+public class CadastroRepository {
 
-    private List<cadastrodesecretarias> listaPokemon;
+    private List<cadastrodesecretarias> listaCadastrodesecretarias;
 
     public PokemonRepository(List<cadastrodesecretarias> listacadastrodesecretarias) {
         this.listacadastrodesecretarias = listacadastrodesecretarias;
